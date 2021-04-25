@@ -28,6 +28,7 @@ p {
 }
 .wrap {
   overflow: hidden;
+  
 }
 
 /* Background */
@@ -58,6 +59,7 @@ p {
   align-items: center;
   max-height: 100%;
   height: 100vh;
+  
 }
 
 /* Flex-box */
@@ -84,13 +86,16 @@ text-align: left;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 /* flex middle - logo */
 .logo {
   position: relative; 
   background: url(./images/Triangle.png) no-repeat center center/cover;
   width: 900px;
-  margin: 15px;
+  height: auto;
+  margin: 15px 0px;
+  
 }
 /* flex middle - button */
 .btn {
@@ -117,11 +122,6 @@ text-align: left;
   text-shadow: 0 0 4px rgb(0 0 0);
 }
 
-/* .button a:hover{
-  color:black; 
-  text-shadow: 0 0 4px rgb(0 0 0);
-}  */
-
 /* flex-social */
 .flex-social {
   display: flex;
@@ -131,7 +131,6 @@ text-align: left;
   text-align: center;
   text-shadow:none;
   margin: 20px 0px;
-  
 }
 .flex-social i{
   padding: 0 3px;
