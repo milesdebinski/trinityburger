@@ -1,0 +1,8 @@
+RewriteEngine on
+
+# Przekierowanie domeny
+
+RewriteCond %{SERVER_PORT} !^443$ [OR]
+RewriteCond %{HTTP_HOST} !^trinityburger\.pl$ [NC] 
+RewriteRule ^(.*)$ https://trinityburger\.pl/$1 [R=301,L]
+

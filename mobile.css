@@ -1,0 +1,85 @@
+
+/* Ipad, surface-duo - horizontal +*/
+@media(max-width: 1115px) and (max-height: 768px){
+  .logo {
+    width: 700px;
+  }
+}
+/* Horizontal Mobile + surfaceDuo - horizontal - unfold*/
+@media(max-width: 830px) and (max-height: 540px) {
+  h2 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .flex-contact {
+    margin-top: 14px;
+  }
+  .flex-contact >* {
+    padding: 0 60px;
+  }
+  .logo {
+    width: 255px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  .btn {
+    padding: 0px;
+  }
+  .button {
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+  .flex-social {
+    margin: 0px;
+    margin: 5px 0px;
+    
+  }
+  .flex-social i {
+    font-size: 20px;
+  }
+}
+/* eg. Iphone X */
+@media(max-width: 540px) {
+  h2 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .flex-contact >* {
+    padding: 0 40px;
+  }
+  .logo {
+    width: 500px;
+  }
+}
+/* eg. iphone 4- horizontal */
+@media(max-width: 480px) {
+   .logo {
+    width: 280px;
+  }
+}
+
+/* eg. Iphone 4 */
+@media(max-width: 320px)  {
+  .flex-contact >* { 
+  padding: 0 20px;
+  }
+  .logo {
+  width: 350px;
+  }
+}
+
+/* eg. Galaxy Fold */
+@media(max-width: 280px) {
+  .flex-contact >* { 
+  padding: 0 2px;
+  }
+}
+
+
+  
+
+
