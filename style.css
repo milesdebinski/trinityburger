@@ -97,7 +97,10 @@ text-align: left;
   padding: 10px;
 }
 .button {
-  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif; 
+  padding: 12px 20px 10px 20px;
   text-align: center;
   display: inline-block;
   font-size: 18px;
@@ -110,16 +113,14 @@ text-align: left;
 }
 .button:hover {
   background: rgba(185, 185, 185, 0.9);
+  color: #000;
+  text-shadow: 0 0 4px rgb(0 0 0);
 }
-.button a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif; 
-}
-.button a:hover{
+
+/* .button a:hover{
   color:black; 
   text-shadow: 0 0 4px rgb(0 0 0);
-} 
+}  */
 
 /* flex-social */
 .flex-social {
