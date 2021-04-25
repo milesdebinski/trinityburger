@@ -58,10 +58,15 @@
 /* eg. iphone 4- horizontal */
 @media(max-width: 480px) {
    .logo {
-    width: 280px;
+    width: 240px;
   }
 }
-
+/* eg. pixelXL */
+@media(max-width: 415px) {
+  .logo {
+   width: 500px;
+ }
+}
 /* eg. Iphone 4 */
 @media(max-width: 320px)  {
   .flex-contact >* { 
@@ -71,7 +76,6 @@
   width: 350px;
   }
 }
-
 /* eg. Galaxy Fold */
 @media(max-width: 280px) {
   .flex-contact >* { 

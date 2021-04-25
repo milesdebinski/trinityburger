@@ -135,9 +135,12 @@ text-align: left;
 .flex-social i{
   padding: 0 3px;
   color: #fff;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
   transition: all ease 0.2s;
+
 }
 .flex-social i:hover {
   padding: 0 3px;
-  color: #dd9a4c;
+  color: rgb(221, 154, 76);
+  text-shadow: 0 0 4px rgba(221, 154, 76, 0.5);
 }
