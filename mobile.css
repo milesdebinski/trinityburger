@@ -1,102 +1,142 @@
-/* Zoom x1.25 */
-@media screen and (max-width: 1600px) {
+
+/* Zoom x1.1 - x1.75 */
+@media(max-width: 1980px) {
+  .logo {
+    width: 800px 
+  }
+}
+@media(max-width: 1680px) { 
   .logo {
     width: 700px;
   }
 }
-
-/* Ipad, surface-duo - horizontal +*/
-@media(max-width: 1115px) and (max-height: 1340px){
+@media(max-width: 1280px) {
   .logo {
-    width: 700px;
-  }
-}
-/* Zoom x150 */
-@media screen and (max-width: 1300px)  {
-  .logo {
-    width: 500px;
+    width: 420px;
   }
 }
 
-/* Horizontal Mobile + surfaceDuo - horizontal - unfold*/
-@media(max-width: 830px) and (max-height: 540px) {
+
+/* Ipad Pro - tablets */
+@media(max-width: 1024px) {
+  .logo {
+    width: 800px;
+  }
+}
+@media(max-width: 780px){
+  .flex-contact >* {
+    padding: 0 0px;
+  }
+  .logo {
+    width: 600px;
+  }
+}
+
+@media(max-height: 760px) {
+  .logo {
+    width: 600px;
+  }
+}
+@media(max-height: 640px) {
+  .logo {
+    width: 400px;
+  }
+}
+@media(max-height: 520px) {
+  .logo {
+    width: 300px;
+  }
+}
+
+
+@media(max-width: 823px) and (max-height: 540px) {
+  .flex-contact {
+    margin: 10px 0;
+  }
   h2 {
+    font-size:  18px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .logo {
+    width: 260px;
+    margin: 8px 0;
+  }
+  .btn {
+    padding: 0;
+  }
+  .button {
+    padding: 8px 12px 6px 12px;
     font-size: 14px;
+  }
+  .flex-social {
+    margin: 4px 0 6px 0;
+    font-size: 14px;;
+  }
+}
+
+@media(max-width: 620px) {
+  .logo {
+    width: 250px;
+  }
+}
+
+/* Mobile  */
+@media(max-width: 530px) {
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+@media(max-width: 415px) {
+  h2 {
+    font-size: 16px;
   }
   p {
     font-size: 12px;
   }
-  .flex-contact {
-    margin-top: 14px;
+  .logo {
+    width: 500px;
   }
-  .flex-contact >* {
-    padding: 0 60px;
+  .container {
+    padding: 0px 20px;
+  }
+}
+@media(max-width: 360px) {
+   p {
+    font-size: 10px;
   }
   .logo {
-    width: 255px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    width: 380px;
   }
-  .btn {
-    padding: 0px;
+  .container {
+    padding: 0px 12px;
+  }
+  .flex-contact {
+    margin: 12px 0;
+  }
+}
+
+
+
+
+
+@media(max-height: 280px) {
+  .logo {
+    width: 200px;
+  }
+  .flex-social {
+    font-size: 12px;
   }
   .button {
     padding: 6px 10px 4px 10px;
-    font-size: 10px;
-  }
-  .flex-social {
-    margin: 0px;
-    margin: 5px 0px;
-    
-  }
-  .flex-social i {
-    font-size: 20px;
-  }
-}
-/* eg. Iphone X */
-@media(max-width: 540px) {
-  h2 {
-    font-size: 14px;
-  }
-  p {
-    font-size: 12px;
-  }
-  .flex-contact >* {
-    padding: 0 40px;
-  }
-  .logo {
-    width: 500px;
-  }
-}
-/* eg. iphone 4- horizontal */
-@media(max-width: 480px) {
-   .logo {
-    width: 240px;
-  }
-}
-/* eg. pixelXL */
-@media(max-width: 415px) {
-  .logo {
-   width: 500px;
- }
-}
-/* eg. Iphone 4 */
-@media(max-width: 320px)  {
-  .flex-contact >* { 
-  padding: 0 20px;
-  }
-  .logo {
-  width: 350px;
-  }
-}
-/* eg. Galaxy Fold */
-@media(max-width: 280px) {
-  .flex-contact >* { 
-  padding: 0 2px;
+    font-size: 10px
   }
 }
 
 
-  
 
 
